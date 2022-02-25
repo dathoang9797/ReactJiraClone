@@ -13,6 +13,8 @@ module.exports = {
       '@Shared': path.resolve(__dirname, './src/Shared'),
       '@Views': path.resolve(__dirname, './src/Views'),
       '@Assets': path.resolve(__dirname, './src/Assets'),
+      '@Models': path.resolve(__dirname, './src/Models'),
+  /*=========================================================*/
       '@components': path.resolve(__dirname, './src/components'),
       '@config': path.resolve(__dirname, './src/config'),
       '@hoc': path.resolve(__dirname, './src/hoc'),
@@ -23,6 +25,8 @@ module.exports = {
       '@shared': path.resolve(__dirname, './src/shared'),
       '@views': path.resolve(__dirname, './src/views'),
       '@assets': path.resolve(__dirname, './src/assets'),
+      '@models': path.resolve(__dirname, './src/models'),
+
     },
   },
   style: {
