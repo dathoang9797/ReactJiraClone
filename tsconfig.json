@@ -18,9 +18,45 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@Components/*": [
+        "src/Components/*"
+      ],
+      "@Redux/*": [
+        "src/Redux/*"
+      ],
+      "@Assets/*": [
+        "src/Assets/*"
+      ],
+      "@Config/*": [
+        "src/Config/*"
+      ],
+      "@HOC": [
+        "src/HOC/*"
+      ],
+      "@Layout/*": [
+        "src/Layout/*"
+      ],
+      "@Routers/*": [
+        "src/Routers/*"
+      ],
+      "@Services/*": [
+        "src/Services/*"
+      ],
+      "@Shared/*": [
+        "src/Shared/*"
+      ],
+      "@Views/*": [
+        "src/Views/*"
+      ],
+    },
   },
   "include": [
-    "src"
+    "src",
+    "craco.config.js",
+    "public/Components",
+    "tailwind.config.cjs"
   ]
 }
