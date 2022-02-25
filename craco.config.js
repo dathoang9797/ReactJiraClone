@@ -11,7 +11,7 @@ module.exports = {
       '@Routers': path.resolve(__dirname, './src/Routers'),
       '@Services': path.resolve(__dirname, './src/Services'),
       '@Shared': path.resolve(__dirname, './src/Shared'),
-      '@Views': path.resolve(__dirname, './src/Views'),
+      '@Pages': path.resolve(__dirname, './src/Pages'),
       '@Assets': path.resolve(__dirname, './src/Assets'),
       '@Models': path.resolve(__dirname, './src/Models'),
   /*=========================================================*/
@@ -23,7 +23,7 @@ module.exports = {
       '@routers': path.resolve(__dirname, './src/routers'),
       '@services': path.resolve(__dirname, './src/services'),
       '@shared': path.resolve(__dirname, './src/shared'),
-      '@views': path.resolve(__dirname, './src/views'),
+      '@pages': path.resolve(__dirname, './src/pages'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@models': path.resolve(__dirname, './src/models'),
 

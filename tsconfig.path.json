@@ -29,8 +29,8 @@
             "@Shared/*": [
                 "src/Shared/*"
             ],
-            "@Views/*": [
-                "src/Views/*"
+            "@Pages/*": [
+                "src/Pages/*"
             ],
             "@Models/*": [
                 "src/Models/*"
