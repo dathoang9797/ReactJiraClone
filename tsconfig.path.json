@@ -17,7 +17,7 @@
             "@HOC": [
                 "src/HOC/*"
             ],
-            "@Layout/*": [
+            "@Layouts/*": [
                 "src/Layouts/*"
             ],
             "@Routers/*": [
