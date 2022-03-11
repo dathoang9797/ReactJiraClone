@@ -14,7 +14,9 @@ module.exports = {
       '@Pages': path.resolve(__dirname, './src/Pages'),
       '@Assets': path.resolve(__dirname, './src/Assets'),
       '@Models': path.resolve(__dirname, './src/Models'),
-  /*=========================================================*/
+      '@Templates': path.resolve(__dirname, './src/Templates'),
+      '@Utils': path.resolve(__dirname, './src/Utils'),
+      /*=========================================================*/
       '@components': path.resolve(__dirname, './src/components'),
       '@config': path.resolve(__dirname, './src/config'),
       '@hoc': path.resolve(__dirname, './src/hoc'),
@@ -26,7 +28,8 @@ module.exports = {
       '@pages': path.resolve(__dirname, './src/pages'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@models': path.resolve(__dirname, './src/models'),
-
+      '@templates': path.resolve(__dirname, './src/templates'),
+      '@utils': path.resolve(__dirname, './src/utils'),
     },
   },
   style: {

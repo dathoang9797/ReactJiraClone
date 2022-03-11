@@ -14,7 +14,7 @@
             "@Config/*": [
                 "src/Config/*"
             ],
-            "@HOC": [
+            "@HOC/*": [
                 "src/HOC/*"
             ],
             "@Layouts/*": [
@@ -35,6 +35,12 @@
             "@Models/*": [
                 "src/Models/*"
             ],
+            "@Templates/*": [
+                "src/Templates/*"
+            ],
+            "@Utils/*": [
+                "src/Utils/*"
+            ]
         },
     },
 }
